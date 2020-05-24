@@ -72,6 +72,7 @@ module.exports = function GhostAdminAPI(options) {
     const resources = [
         // @NOTE: stable
         'posts',
+        'invites',
         'pages',
         'tags',
         // @NOTE: experimental
